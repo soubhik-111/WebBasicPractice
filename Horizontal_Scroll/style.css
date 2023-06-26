@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+header{
+    height: 150vh;
+    background: rgb(195, 0, 255)
+}
+
+.main {
+    margin: 5vh 0;
+}
+
+#container {
+    height: auto;
+    /* width: 75vw; */
+    display: flex;
+    overflow-x: auto;
+}
+
+.content {
+    height: 500px;
+    min-width: 50vw;
+}
+footer{
+    height: 100vh;
+    background: rgb(195, 0, 255)
+}
